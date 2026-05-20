@@ -1,0 +1,1 @@
+# Create a Person class with __init__(name, age) and a greet() method. Create an Employee class that inherits from Person and adds a work() method. Instantiate Employee and call both greet() and work().
