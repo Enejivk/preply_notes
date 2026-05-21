@@ -1,9 +1,3 @@
-Yes, Object-Oriented Programming should definitely be included, especially for a university-level Python exam in Business Informatics.
-
-You can add it like this:
-
-# Python Exam Preparation Outline
-
 1. Python Fundamentals Refresher
 
    * Variables and Data Types
