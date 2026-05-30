@@ -36,108 +36,108 @@ class TaskCreate(BaseModel):
 
 
 # # Fake database
-# tasks = [
-#     Task(
-#         id=1,
-#         title="Build REST API",
-#         subject="Python",
-#         description="Create a RESTful API using FastAPI with proper error handling",
-#         priority="high",
-#         deadline="2026-05-28T14:00:00",
-#         completed=False,
-#         created="2026-05-24T09:00:00"
-#     ),
-#     Task(
-#         id=2,
-#         title="DOM Manipulation Tutorial",
-#         subject="JavaScript",
-#         description="Learn and implement DOM manipulation techniques",
-#         priority="medium",
-#         deadline="2026-05-26T18:00:00",
-#         completed=True,
-#         created="2026-05-20T10:30:00"
-#     ),
-#     Task(
-#         id=3,
-#         title="Object-Oriented Programming",
-#         subject="Java",
-#         description="Study inheritance, polymorphism, and encapsulation concepts",
-#         priority="high",
-#         deadline="2026-05-29T16:00:00",
-#         completed=False,
-#         created="2026-05-22T08:15:00"
-#     ),
-#     Task(
-#         id=4,
-#         title="Implement Quick Sort",
-#         subject="C++",
-#         description="Write and optimize the Quick Sort algorithm implementation",
-#         priority="medium",
-#         deadline="2026-05-27T12:00:00",
-#         completed=False,
-#         created="2026-05-23T11:45:00"
-#     ),
-#     Task(
-#         id=5,
-#         title="Concurrency Patterns",
-#         subject="Go",
-#         description="Explore goroutines and channels for concurrent programming",
-#         priority="low",
-#         deadline="2026-05-30T10:00:00",
-#         completed=False,
-#         created="2026-05-24T13:20:00"
-#     ),
-#     Task(
-#         id=6,
-#         title="Data Structures Review",
-#         subject="Python",
-#         description="Review lists, dictionaries, sets, and their operations",
-#         priority="medium",
-#         deadline="2026-05-25T20:00:00",
-#         completed=True,
-#         created="2026-05-18T14:00:00"
-#     ),
-#     Task(
-#         id=7,
-#         title="Async/Await Practice",
-#         subject="JavaScript",
-#         description="Practice async functions and promise handling",
-#         priority="high",
-#         deadline="2026-05-24T23:59:00",
-#         completed=False,
-#         created="2026-05-23T16:30:00"
-#     ),
-#     Task(
-#         id=8,
-#         title="Exception Handling",
-#         subject="Java",
-#         description="Implement try-catch blocks and custom exceptions",
-#         priority="low",
-#         deadline="2026-05-31T15:00:00",
-#         completed=False,
-#         created="2026-05-24T09:45:00"
-#     ),
-#     Task(
-#         id=9,
-#         title="Memory Management",
-#         subject="C++",
-#         description="Study pointers, references, and memory allocation",
-#         priority="high",
-#         deadline="2026-05-28T17:00:00",
-#         completed=False,
-#         created="2026-05-21T10:00:00"
-#     ),
-#     Task(
-#         id=10,
-#         title="Web Framework Basics",
-#         subject="Go",
-#         description="Learn basics of Go web frameworks like Gin or Echo",
-#         priority="medium",
-#         deadline="2026-05-29T11:00:00",
-#         completed=True,
-#         created="2026-05-19T12:30:00"
-#     ),
-# ]
+tasks = [
+    Task(
+        id=1,
+        title="Build REST API",
+        subject="Python",
+        description="Create a RESTful API using FastAPI with proper error handling",
+        priority="high",
+        deadline="2026-05-28T14:00:00",
+        completed=False,
+        created="2026-05-24T09:00:00"
+    ),
+    Task(
+        id=2,
+        title="DOM Manipulation Tutorial",
+        subject="JavaScript",
+        description="Learn and implement DOM manipulation techniques",
+        priority="medium",
+        deadline="2026-05-26T18:00:00",
+        completed=True,
+        created="2026-05-20T10:30:00"
+    ),
+    Task(
+        id=3,
+        title="Object-Oriented Programming",
+        subject="Java",
+        description="Study inheritance, polymorphism, and encapsulation concepts",
+        priority="high",
+        deadline="2026-05-29T16:00:00",
+        completed=False,
+        created="2026-05-22T08:15:00"
+    ),
+    Task(
+        id=4,
+        title="Implement Quick Sort",
+        subject="C++",
+        description="Write and optimize the Quick Sort algorithm implementation",
+        priority="medium",
+        deadline="2026-05-27T12:00:00",
+        completed=False,
+        created="2026-05-23T11:45:00"
+    ),
+    Task(
+        id=5,
+        title="Concurrency Patterns",
+        subject="Go",
+        description="Explore goroutines and channels for concurrent programming",
+        priority="low",
+        deadline="2026-05-30T10:00:00",
+        completed=False,
+        created="2026-05-24T13:20:00"
+    ),
+    Task(
+        id=6,
+        title="Data Structures Review",
+        subject="Python",
+        description="Review lists, dictionaries, sets, and their operations",
+        priority="medium",
+        deadline="2026-05-25T20:00:00",
+        completed=True,
+        created="2026-05-18T14:00:00"
+    ),
+    Task(
+        id=7,
+        title="Async/Await Practice",
+        subject="JavaScript",
+        description="Practice async functions and promise handling",
+        priority="high",
+        deadline="2026-05-24T23:59:00",
+        completed=False,
+        created="2026-05-23T16:30:00"
+    ),
+    Task(
+        id=8,
+        title="Exception Handling",
+        subject="Java",
+        description="Implement try-catch blocks and custom exceptions",
+        priority="low",
+        deadline="2026-05-31T15:00:00",
+        completed=False,
+        created="2026-05-24T09:45:00"
+    ),
+    Task(
+        id=9,
+        title="Memory Management",
+        subject="C++",
+        description="Study pointers, references, and memory allocation",
+        priority="high",
+        deadline="2026-05-28T17:00:00",
+        completed=False,
+        created="2026-05-21T10:00:00"
+    ),
+    Task(
+        id=10,
+        title="Web Framework Basics",
+        subject="Go",
+        description="Learn basics of Go web frameworks like Gin or Echo",
+        priority="medium",
+        deadline="2026-05-29T11:00:00",
+        completed=True,
+        created="2026-05-19T12:30:00"
+    ),
+]
 
 tasks = []
 @app.get("/")
